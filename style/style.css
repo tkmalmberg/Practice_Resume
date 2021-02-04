@@ -1,0 +1,162 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    color: #898788;
+    background-color: #141414;
+}
+.mainContainer {
+    background-color: #282828;
+    width: 80%;
+    max-width: 750px;
+    min-width: 500px;
+    margin-top: 3%;
+    padding: 30px;
+}
+.resName, .labelCol, .expHeader, .expTitle, .sideTitle {
+    color: #fdfffe;
+}
+.topContainer, .headContainer {
+    display: flex;
+    flex-direction: row;
+}
+.topContainer {
+    margin-bottom: 20px;
+}
+.nameTitle {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.nameTitle h3 {
+    color: #44a5d2;
+    margin: 3px;
+}
+.nameTitle h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.imgContainer {
+    height: 100px;
+    width: 100px;
+    padding: 6px;
+    background-color: #3b3c3d;
+}
+.imgContainer img{
+    height: 100%;
+    width: 100%;
+}
+.tableContainer {
+    font-size: small;
+    margin-left: 10px;
+}
+.labelCol {
+    text-align: right;
+}
+.link {
+    color: #44a5d2;
+}
+.bottomContainer {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.eduExpContainer {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.sideContainer {
+    /* border: 1px solid red; */
+    padding-left: 10px;
+    flex-basis: 200px;
+}
+.subjectContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #373737;
+    align-content: center;
+    vertical-align: middle;
+}
+.expHeader {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    height: 27px;
+}
+.expTitle {
+    margin-bottom: 5px;
+}
+.expSub {
+    margin-top: 5px;
+}
+.icofont-rounded-down:before
+{
+  background-color: #fdfffe;
+}
+.icon {
+    background-color: #2d7da7;
+    margin: 17px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 5px;
+    height: 100%;
+    width: 5%;
+}
+.expDate {
+    float: right;
+}
+.sideBlock {
+    display: flex;
+    flex-direction: column;
+}
+.sideTitle {
+    margin-bottom: 0px;
+}
+.skillLabel{
+    margin-bottom: 0px;
+}
+.percentContainer{
+    height: 20px;
+    width: 100%;
+    padding-right: 3px;
+    background-color: #373737;
+}
+.percentBar {
+    height: 20px;
+    width: 100%;
+    padding-right: 3px;
+    background-color: #44a5d2;
+    color: #fdfffe;
+    text-align: right;
+}
+.skillTable td {
+    line-height: 0px;
+}
+.skillIcon {
+    height: 15px;
+    width: 15px;
+    background-color: #44a5d2;
+}
+.iconCell {
+    width: 15px;
+}
+.langTable td {
+    display: flex;
+    flex-direction: row;
+}
+.langTable div {
+    background-color: #373737;
+    height: 15px;
+    width: 15px;
+    margin-right: 4px;
+    border-radius: 100%;
+}
+.langLabel {
+    margin-right: 0px;
+}
